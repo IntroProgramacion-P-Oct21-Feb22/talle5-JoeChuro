@@ -44,10 +44,11 @@ public class Problema1 {
         
         valortotal = costokilovatioHora * kilovatiosconsumidos;
         
-        if (edad = >= 65) { 
+        if (edad >= 65) { 
             descuento = (valortotal * porcentaje)/100;
             valortotal = (valortotal - descuento);        
-        }else{
+        }
+        System.out.printf("Elvalor a pagar es: %.2f,", valortotal);
         
         
         
